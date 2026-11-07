@@ -179,7 +179,8 @@ docs/
     openapi.json
   api-contract.md
   BlueMoon_ERD.drawio
-  BlueMoon_UML.drawio
+  BlueMoon_UML.asta
+  diagrams.md
 tools/
   backup_restore.py
   sync_model_diagrams.py
@@ -201,5 +202,6 @@ Tài liệu: [API contract](docs/api-contract.md), [quy ước và nghiệp vụ
 
 ### Sơ đồ thiết kế
 
-Sơ đồ hiện hành: [ERD](docs/BlueMoon_ERD.drawio), [UML](docs/BlueMoon_UML.drawio).
-File Astah và ảnh preview trong `docs/UML_Preview`, `docs/ERD_Preview` là bản thiết kế lịch sử.
+Sơ đồ hiện hành: [ERD bằng draw.io](docs/BlueMoon_ERD.drawio), [UML bằng Astah](docs/BlueMoon_UML.asta).
+Ảnh trong `docs/ERD_Preview` và `docs/UML_Preview` được xuất từ các file nguồn hiện hành.
+Xem [mục lục, ánh xạ schema và cách tái tạo](docs/diagrams.md).

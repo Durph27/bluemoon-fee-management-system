@@ -368,9 +368,9 @@ CSV và chống formula injection ở ô văn bản bắt đầu =/+/-/@. PDF th
 
 ## Sơ đồ vật lý và vai trò hiện hành
 
-ERD hiện hành: `docs/BlueMoon_ERD.drawio`, gồm 39 bảng vật lý từ migration.
-UML hiện hành: `docs/BlueMoon_UML.drawio`, gồm 5 actor và luồng component.
-Các ảnh ERD/UML preview và file Astah cũ là tài liệu lịch sử. Tên bảng vật lý
+ERD hiện hành: [BlueMoon_ERD.drawio](../BlueMoon_ERD.drawio), dùng ký pháp Chen để đối chiếu 39 bảng từ migration; hai bảng nối RBAC được biểu diễn bằng liên kết m-n.
+UML hiện hành: [BlueMoon_UML.asta](../BlueMoon_UML.asta), gồm 39 lớp dữ liệu theo migration V1-V3, 5 actor, use case, phụ thuộc Spring Boot và sequence của các luồng đã triển khai. Xem [mục lục và quy ước sơ đồ](../diagrams.md).
+Các ảnh ERD/UML preview được xuất từ file nguồn hiện hành. Tên bảng vật lý
 `app_role`, `app_permission` tương ứng API `Role`, `Permission`; JSON snapshot
 lưu TEXT. Tổng tiền và collections trong response được tính từ các bảng liên quan.
 Danh mục vai trò cố định; POST /roles được giữ cho tương thích URL nhưng không
